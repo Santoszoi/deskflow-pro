@@ -4,12 +4,18 @@ Sistema demonstrativo de gerenciamento de chamados de TI, desenvolvido para port
 
 > **Status:** código-fonte da versão 1.0. Aplicação demonstrativa; não indicada para produção sem autenticação, banco de dados, autorização e controles adicionais.
 
+## Demonstração online
+
+**Front-End:** https://deskflow-pro.vercel.app
+
+> A interface está publicada na Vercel. A API REST e o armazenamento persistente ainda não foram implantados; ações que dependem do backend podem não funcionar na demonstração online.
+
 ## Tecnologias
 
 - **Front-End:** React 19, TypeScript, Vite, Tailwind CSS 4, Lucide React, Recharts.
 - **Back-End:** Node.js, Express, API REST com persistência em JSON local.
 - **Testes:** Vitest e Testing Library (configurada para extensão).
-- **DevOps:** GitHub Actions para checagem de tipos, testes e build.
+- **DevOps:** GitHub Actions para checagem de tipos, testes e build; Front-End publicado na Vercel.
 
 ## Funcionalidades
 
