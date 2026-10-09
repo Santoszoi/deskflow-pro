@@ -8,7 +8,7 @@ Sistema demonstrativo de gerenciamento de chamados de TI, desenvolvido para port
 
 **Front-End:** https://deskflow-pro.vercel.app
 
-> A interface está publicada na Vercel. A API REST e o armazenamento persistente ainda não foram implantados; ações que dependem do backend podem não funcionar na demonstração online.
+> A interface publicada na Vercel usa um **modo demonstração com localStorage**: permite listar, criar, editar e excluir chamados no navegador, mantendo-os apenas naquele navegador. Não há sincronização entre usuários nem banco de dados remoto. A API Express existe no repositório e funciona localmente; hospedagem e banco remoto são melhorias futuras.
 
 ## Tecnologias
 
